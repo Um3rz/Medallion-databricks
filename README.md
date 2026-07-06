@@ -104,8 +104,8 @@ All four Gold queries read from the Silver stream with a **7-day watermark** on 
 
 ```
 .
-├── 26100355-pa2-part1.ipynb   # Part 1: Bronze layer + Silver (initial pass) + written Q&A
-├── 26100355-pa2-part2.ipynb   # Part 2: Full Bronze→Silver→Gold pipeline, broadcast-join enrichment,
+├── Medallion-part1.ipynb   # Part 1: Bronze layer + Silver (initial pass) + written Q&A
+├── Medallion-part2.ipynb   # Part 2: Full Bronze→Silver→Gold pipeline, broadcast-join enrichment,
 │                                #         gold aggregations, and results preview
 ├── data_ingestion.ipynb        # Producer notebook: configures landing-zone/CDC paths for the
 │                                #         continuous simulation feeding Part 3
@@ -147,6 +147,3 @@ It ships a full copy of a small table (the airport reference data) to every work
 
 ---
 
-## Acknowledgments
-
-Built for *CS5305/CS621 — Scalable AI Services with Agentic AI, MLOps & LLMOps*, LUMS SBASSE, Spring 2026.
